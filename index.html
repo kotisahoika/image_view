@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>画像びゅう</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<script src="jszip.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<input type="file" id="fileInput" accept="image/*" multiple>
+
+<input type="file" id="zipInput" accept=".zip">
+
+<button onclick="toggleSpread()">見開き</button>
+
+</header>
+
+<div id="viewer">
+
+<img id="leftPage">
+<img id="rightPage">
+
+</div>
+
+<div id="pageInfo"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
