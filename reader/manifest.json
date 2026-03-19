@@ -1,8 +1,0 @@
-{
-"name":"画像びゅう",
-"short_name":"Reader",
-"display":"standalone",
-"start_url":"index.html",
-"background_color":"#000000",
-"theme_color":"#000000"
-}
